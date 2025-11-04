@@ -1,0 +1,11 @@
+/var/www/html/betterchoicegreasetrappumping/betterchoicegreasetrappumping.py:48: SyntaxWarning: invalid escape sequence '\s'
+  processing_handler= '''<div id="output"></div>
+Traceback (most recent call last):
+  File "/var/www/html/betterchoicegreasetrappumping/betterchoicegreasetrappumping.py", line 1070, in <module>
+    all_pages_protocol()
+  File "/var/www/html/betterchoicegreasetrappumping/betterchoicegreasetrappumping.py", line 1031, in all_pages_protocol
+    sitemapcityurl= create_city_page_url(state_repl, state, state_abbr_short, sub_ciy_repl, sub_ciy, confirm_city_pages, domain_site_name, county_web_contents1, all_table_data1, iframe, zip_codes, site_root, phone_number, Long_formurl, shortformurl, site_name, randomize_image)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/betterchoicegreasetrappumping/betterchoicegreasetrappumping.py", line 906, in create_city_page_url
+    fp.writelines(city_page)
+OSError: [Errno 28] No space left on device
